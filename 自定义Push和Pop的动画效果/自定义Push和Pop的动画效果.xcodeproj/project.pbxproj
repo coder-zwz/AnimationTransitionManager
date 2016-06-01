@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F6178531CFEB14200843F26 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F6178521CFEB14200843F26 /* main.m */; };
+		0F6178561CFEB14200843F26 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F6178551CFEB14200843F26 /* AppDelegate.m */; };
+		0F6178591CFEB14200843F26 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F6178581CFEB14200843F26 /* ViewController.m */; };
+		0F61785E1CFEB14200843F26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F61785D1CFEB14200843F26 /* Assets.xcassets */; };
+		0F6178611CFEB14200843F26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F61785F1CFEB14200843F26 /* LaunchScreen.storyboard */; };
+		0F61786C1CFEB14200843F26 /* ___Push_Pop_____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F61786B1CFEB14200843F26 /* ___Push_Pop_____Tests.m */; };
+		0F6178771CFEB14200843F26 /* ___Push_Pop_____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F6178761CFEB14200843F26 /* ___Push_Pop_____UITests.m */; };
+		0F6178961CFEC6D800843F26 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F6178951CFEC6D800843F26 /* ViewController2.m */; };
+		0F6178991CFEE25D00843F26 /* BezierPathTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F6178981CFEE25D00843F26 /* BezierPathTest.m */; };
+		0F6178BE1CFF120400843F26 /* InteractionTransitionAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F6178B51CFF120400843F26 /* InteractionTransitionAnimation.m */; };
+		0F6178BF1CFF120400843F26 /* InteractiveTrasitionAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F6178B71CFF120400843F26 /* InteractiveTrasitionAnimation.m */; };
+		0F6178C01CFF120400843F26 /* PopTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F6178B91CFF120400843F26 /* PopTransition.m */; };
+		0F6178C11CFF120400843F26 /* PushTransiton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F6178BB1CFF120400843F26 /* PushTransiton.m */; };
+		0F6178C21CFF120400843F26 /* UIViewController+UIViewControllerAnimatedTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F6178BD1CFF120400843F26 /* UIViewController+UIViewControllerAnimatedTransitioning.m */; };
+		0F6178C51CFF127900843F26 /* ViewController3.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F6178C41CFF127900843F26 /* ViewController3.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0F6178681CFEB14200843F26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0F6178461CFEB14200843F26 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F61784D1CFEB14200843F26;
+			remoteInfo = "自定义Push和Pop的动画效果";
+		};
+		0F6178731CFEB14200843F26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0F6178461CFEB14200843F26 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F61784D1CFEB14200843F26;
+			remoteInfo = "自定义Push和Pop的动画效果";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F61784E1CFEB14200843F26 /* 自定义Push和Pop的动画效果.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "自定义Push和Pop的动画效果.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F6178521CFEB14200843F26 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0F6178541CFEB14200843F26 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0F6178551CFEB14200843F26 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0F6178571CFEB14200843F26 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0F6178581CFEB14200843F26 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0F61785D1CFEB14200843F26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0F6178601CFEB14200843F26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0F6178621CFEB14200843F26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F6178671CFEB14200843F26 /* 自定义Push和Pop的动画效果Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "自定义Push和Pop的动画效果Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F61786B1CFEB14200843F26 /* ___Push_Pop_____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___Push_Pop_____Tests.m"; sourceTree = "<group>"; };
+		0F61786D1CFEB14200843F26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F6178721CFEB14200843F26 /* 自定义Push和Pop的动画效果UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "自定义Push和Pop的动画效果UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F6178761CFEB14200843F26 /* ___Push_Pop_____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___Push_Pop_____UITests.m"; sourceTree = "<group>"; };
+		0F6178781CFEB14200843F26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F6178941CFEC6D800843F26 /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		0F6178951CFEC6D800843F26 /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
+		0F6178971CFEE25D00843F26 /* BezierPathTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BezierPathTest.h; sourceTree = "<group>"; };
+		0F6178981CFEE25D00843F26 /* BezierPathTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BezierPathTest.m; sourceTree = "<group>"; };
+		0F6178B41CFF120400843F26 /* InteractionTransitionAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InteractionTransitionAnimation.h; sourceTree = "<group>"; };
+		0F6178B51CFF120400843F26 /* InteractionTransitionAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InteractionTransitionAnimation.m; sourceTree = "<group>"; };
+		0F6178B61CFF120400843F26 /* InteractiveTrasitionAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InteractiveTrasitionAnimation.h; sourceTree = "<group>"; };
+		0F6178B71CFF120400843F26 /* InteractiveTrasitionAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InteractiveTrasitionAnimation.m; sourceTree = "<group>"; };
+		0F6178B81CFF120400843F26 /* PopTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopTransition.h; sourceTree = "<group>"; };
+		0F6178B91CFF120400843F26 /* PopTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopTransition.m; sourceTree = "<group>"; };
+		0F6178BA1CFF120400843F26 /* PushTransiton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PushTransiton.h; sourceTree = "<group>"; };
+		0F6178BB1CFF120400843F26 /* PushTransiton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushTransiton.m; sourceTree = "<group>"; };
+		0F6178BC1CFF120400843F26 /* UIViewController+UIViewControllerAnimatedTransitioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+UIViewControllerAnimatedTransitioning.h"; sourceTree = "<group>"; };
+		0F6178BD1CFF120400843F26 /* UIViewController+UIViewControllerAnimatedTransitioning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+UIViewControllerAnimatedTransitioning.m"; sourceTree = "<group>"; };
+		0F6178C31CFF127900843F26 /* ViewController3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController3.h; sourceTree = "<group>"; };
+		0F6178C41CFF127900843F26 /* ViewController3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController3.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0F61784B1CFEB14200843F26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F6178641CFEB14200843F26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F61786F1CFEB14200843F26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F6178451CFEB14200843F26 = {
+			isa = PBXGroup;
+			children = (
+				0F6178501CFEB14200843F26 /* 自定义Push和Pop的动画效果 */,
+				0F61786A1CFEB14200843F26 /* 自定义Push和Pop的动画效果Tests */,
+				0F6178751CFEB14200843F26 /* 自定义Push和Pop的动画效果UITests */,
+				0F61784F1CFEB14200843F26 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0F61784F1CFEB14200843F26 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0F61784E1CFEB14200843F26 /* 自定义Push和Pop的动画效果.app */,
+				0F6178671CFEB14200843F26 /* 自定义Push和Pop的动画效果Tests.xctest */,
+				0F6178721CFEB14200843F26 /* 自定义Push和Pop的动画效果UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0F6178501CFEB14200843F26 /* 自定义Push和Pop的动画效果 */ = {
+			isa = PBXGroup;
+			children = (
+				0F6178B31CFF120400843F26 /* AnimationTransitionManager */,
+				0F6178541CFEB14200843F26 /* AppDelegate.h */,
+				0F6178551CFEB14200843F26 /* AppDelegate.m */,
+				0F6178571CFEB14200843F26 /* ViewController.h */,
+				0F6178581CFEB14200843F26 /* ViewController.m */,
+				0F6178941CFEC6D800843F26 /* ViewController2.h */,
+				0F6178951CFEC6D800843F26 /* ViewController2.m */,
+				0F6178C31CFF127900843F26 /* ViewController3.h */,
+				0F6178C41CFF127900843F26 /* ViewController3.m */,
+				0F6178971CFEE25D00843F26 /* BezierPathTest.h */,
+				0F6178981CFEE25D00843F26 /* BezierPathTest.m */,
+				0F61785D1CFEB14200843F26 /* Assets.xcassets */,
+				0F61785F1CFEB14200843F26 /* LaunchScreen.storyboard */,
+				0F6178621CFEB14200843F26 /* Info.plist */,
+				0F6178511CFEB14200843F26 /* Supporting Files */,
+			);
+			path = "自定义Push和Pop的动画效果";
+			sourceTree = "<group>";
+		};
+		0F6178511CFEB14200843F26 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0F6178521CFEB14200843F26 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0F61786A1CFEB14200843F26 /* 自定义Push和Pop的动画效果Tests */ = {
+			isa = PBXGroup;
+			children = (
+				0F61786B1CFEB14200843F26 /* ___Push_Pop_____Tests.m */,
+				0F61786D1CFEB14200843F26 /* Info.plist */,
+			);
+			path = "自定义Push和Pop的动画效果Tests";
+			sourceTree = "<group>";
+		};
+		0F6178751CFEB14200843F26 /* 自定义Push和Pop的动画效果UITests */ = {
+			isa = PBXGroup;
+			children = (
+				0F6178761CFEB14200843F26 /* ___Push_Pop_____UITests.m */,
+				0F6178781CFEB14200843F26 /* Info.plist */,
+			);
+			path = "自定义Push和Pop的动画效果UITests";
+			sourceTree = "<group>";
+		};
+		0F6178B31CFF120400843F26 /* AnimationTransitionManager */ = {
+			isa = PBXGroup;
+			children = (
+				0F6178B41CFF120400843F26 /* InteractionTransitionAnimation.h */,
+				0F6178B51CFF120400843F26 /* InteractionTransitionAnimation.m */,
+				0F6178B61CFF120400843F26 /* InteractiveTrasitionAnimation.h */,
+				0F6178B71CFF120400843F26 /* InteractiveTrasitionAnimation.m */,
+				0F6178B81CFF120400843F26 /* PopTransition.h */,
+				0F6178B91CFF120400843F26 /* PopTransition.m */,
+				0F6178BA1CFF120400843F26 /* PushTransiton.h */,
+				0F6178BB1CFF120400843F26 /* PushTransiton.m */,
+				0F6178BC1CFF120400843F26 /* UIViewController+UIViewControllerAnimatedTransitioning.h */,
+				0F6178BD1CFF120400843F26 /* UIViewController+UIViewControllerAnimatedTransitioning.m */,
+			);
+			path = AnimationTransitionManager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0F61784D1CFEB14200843F26 /* 自定义Push和Pop的动画效果 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F61787B1CFEB14200843F26 /* Build configuration list for PBXNativeTarget "自定义Push和Pop的动画效果" */;
+			buildPhases = (
+				0F61784A1CFEB14200843F26 /* Sources */,
+				0F61784B1CFEB14200843F26 /* Frameworks */,
+				0F61784C1CFEB14200843F26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "自定义Push和Pop的动画效果";
+			productName = "自定义Push和Pop的动画效果";
+			productReference = 0F61784E1CFEB14200843F26 /* 自定义Push和Pop的动画效果.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0F6178661CFEB14200843F26 /* 自定义Push和Pop的动画效果Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F61787E1CFEB14200843F26 /* Build configuration list for PBXNativeTarget "自定义Push和Pop的动画效果Tests" */;
+			buildPhases = (
+				0F6178631CFEB14200843F26 /* Sources */,
+				0F6178641CFEB14200843F26 /* Frameworks */,
+				0F6178651CFEB14200843F26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0F6178691CFEB14200843F26 /* PBXTargetDependency */,
+			);
+			name = "自定义Push和Pop的动画效果Tests";
+			productName = "自定义Push和Pop的动画效果Tests";
+			productReference = 0F6178671CFEB14200843F26 /* 自定义Push和Pop的动画效果Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0F6178711CFEB14200843F26 /* 自定义Push和Pop的动画效果UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F6178811CFEB14200843F26 /* Build configuration list for PBXNativeTarget "自定义Push和Pop的动画效果UITests" */;
+			buildPhases = (
+				0F61786E1CFEB14200843F26 /* Sources */,
+				0F61786F1CFEB14200843F26 /* Frameworks */,
+				0F6178701CFEB14200843F26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0F6178741CFEB14200843F26 /* PBXTargetDependency */,
+			);
+			name = "自定义Push和Pop的动画效果UITests";
+			productName = "自定义Push和Pop的动画效果UITests";
+			productReference = 0F6178721CFEB14200843F26 /* 自定义Push和Pop的动画效果UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0F6178461CFEB14200843F26 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = visoft;
+				TargetAttributes = {
+					0F61784D1CFEB14200843F26 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					0F6178661CFEB14200843F26 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 0F61784D1CFEB14200843F26;
+					};
+					0F6178711CFEB14200843F26 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 0F61784D1CFEB14200843F26;
+					};
+				};
+			};
+			buildConfigurationList = 0F6178491CFEB14200843F26 /* Build configuration list for PBXProject "自定义Push和Pop的动画效果" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0F6178451CFEB14200843F26;
+			productRefGroup = 0F61784F1CFEB14200843F26 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0F61784D1CFEB14200843F26 /* 自定义Push和Pop的动画效果 */,
+				0F6178661CFEB14200843F26 /* 自定义Push和Pop的动画效果Tests */,
+				0F6178711CFEB14200843F26 /* 自定义Push和Pop的动画效果UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0F61784C1CFEB14200843F26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F6178611CFEB14200843F26 /* LaunchScreen.storyboard in Resources */,
+				0F61785E1CFEB14200843F26 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F6178651CFEB14200843F26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F6178701CFEB14200843F26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0F61784A1CFEB14200843F26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F6178C21CFF120400843F26 /* UIViewController+UIViewControllerAnimatedTransitioning.m in Sources */,
+				0F6178BE1CFF120400843F26 /* InteractionTransitionAnimation.m in Sources */,
+				0F6178591CFEB14200843F26 /* ViewController.m in Sources */,
+				0F6178561CFEB14200843F26 /* AppDelegate.m in Sources */,
+				0F6178531CFEB14200843F26 /* main.m in Sources */,
+				0F6178C01CFF120400843F26 /* PopTransition.m in Sources */,
+				0F6178991CFEE25D00843F26 /* BezierPathTest.m in Sources */,
+				0F6178C11CFF120400843F26 /* PushTransiton.m in Sources */,
+				0F6178BF1CFF120400843F26 /* InteractiveTrasitionAnimation.m in Sources */,
+				0F6178961CFEC6D800843F26 /* ViewController2.m in Sources */,
+				0F6178C51CFF127900843F26 /* ViewController3.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F6178631CFEB14200843F26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F61786C1CFEB14200843F26 /* ___Push_Pop_____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F61786E1CFEB14200843F26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F6178771CFEB14200843F26 /* ___Push_Pop_____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0F6178691CFEB14200843F26 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0F61784D1CFEB14200843F26 /* 自定义Push和Pop的动画效果 */;
+			targetProxy = 0F6178681CFEB14200843F26 /* PBXContainerItemProxy */;
+		};
+		0F6178741CFEB14200843F26 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0F61784D1CFEB14200843F26 /* 自定义Push和Pop的动画效果 */;
+			targetProxy = 0F6178731CFEB14200843F26 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0F61785F1CFEB14200843F26 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F6178601CFEB14200843F26 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0F6178791CFEB14200843F26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0F61787A1CFEB14200843F26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0F61787C1CFEB14200843F26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "自定义Push和Pop的动画效果/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.visoft.cn.---Push-Pop-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0F61787D1CFEB14200843F26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "自定义Push和Pop的动画效果/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.visoft.cn.---Push-Pop-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0F61787F1CFEB14200843F26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "自定义Push和Pop的动画效果Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.visoft.cn.---Push-Pop-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/自定义Push和Pop的动画效果.app/自定义Push和Pop的动画效果";
+			};
+			name = Debug;
+		};
+		0F6178801CFEB14200843F26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "自定义Push和Pop的动画效果Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.visoft.cn.---Push-Pop-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/自定义Push和Pop的动画效果.app/自定义Push和Pop的动画效果";
+			};
+			name = Release;
+		};
+		0F6178821CFEB14200843F26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "自定义Push和Pop的动画效果UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.visoft.cn.---Push-Pop-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "自定义Push和Pop的动画效果";
+			};
+			name = Debug;
+		};
+		0F6178831CFEB14200843F26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "自定义Push和Pop的动画效果UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.visoft.cn.---Push-Pop-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "自定义Push和Pop的动画效果";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F6178491CFEB14200843F26 /* Build configuration list for PBXProject "自定义Push和Pop的动画效果" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F6178791CFEB14200843F26 /* Debug */,
+				0F61787A1CFEB14200843F26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F61787B1CFEB14200843F26 /* Build configuration list for PBXNativeTarget "自定义Push和Pop的动画效果" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F61787C1CFEB14200843F26 /* Debug */,
+				0F61787D1CFEB14200843F26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0F61787E1CFEB14200843F26 /* Build configuration list for PBXNativeTarget "自定义Push和Pop的动画效果Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F61787F1CFEB14200843F26 /* Debug */,
+				0F6178801CFEB14200843F26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0F6178811CFEB14200843F26 /* Build configuration list for PBXNativeTarget "自定义Push和Pop的动画效果UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F6178821CFEB14200843F26 /* Debug */,
+				0F6178831CFEB14200843F26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0F6178461CFEB14200843F26 /* Project object */;
+}
